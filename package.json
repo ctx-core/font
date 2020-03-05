@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/font",
-	"version": "5.1.70",
+	"version": "5.1.71",
 	"description": "ctx-core font",
 	"main": "store.js",
 	"module": "store.js",
@@ -29,11 +29,11 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^5.12.2",
+		"@ctx-core/dom": "^5.12.3",
 		"@ctx-core/error": "^5.1.69",
 		"@ctx-core/logger": "^3.1.13",
 		"@ctx-core/object": "^8.0.4",
-		"@ctx-core/store": "^13.1.15",
+		"@ctx-core/store": "^13.1.16",
 		"svelte": "^3.19.2"
 	},
 	"devDependencies": {
