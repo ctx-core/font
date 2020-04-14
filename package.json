@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/font",
-	"version": "5.1.83",
+	"version": "5.1.84",
 	"description": "ctx-core font",
 	"main": "store.js",
 	"module": "store.js",
@@ -29,8 +29,8 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^5.12.19",
-		"@ctx-core/error": "^5.1.73",
+		"@ctx-core/dom": "^5.12.20",
+		"@ctx-core/error": "^5.1.74",
 		"@ctx-core/logger": "^3.1.14",
 		"@ctx-core/object": "^8.0.8",
 		"@ctx-core/store": "^13.1.22",
