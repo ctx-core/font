@@ -34,7 +34,7 @@
 		"@ctx-core/logger": "^3.1.14",
 		"@ctx-core/object": "^8.0.9",
 		"@ctx-core/store": "^13.1.25",
-		"svelte": "^3.22.2"
+		"svelte": "^3.22.3"
 	},
 	"devDependencies": {
 		"typescript": "^3.9.2"
