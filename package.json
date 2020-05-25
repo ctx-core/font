@@ -2,7 +2,6 @@
 	"name": "@ctx-core/font",
 	"version": "5.1.95",
 	"description": "ctx-core font",
-	"type": "module",
 	"main": "store.js",
 	"module": "store.js",
 	"types": "store.ts",
