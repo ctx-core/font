@@ -2,9 +2,9 @@
 	"name": "@ctx-core/font",
 	"version": "5.1.108",
 	"description": "ctx-core font",
-	"main": "store.js",
-	"module": "store.js",
-	"types": "store.ts",
+	"main": "index.js",
+	"module": "index.js",
+	"types": "index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
