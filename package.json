@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/font",
-	"version": "5.1.136",
+	"version": "5.1.137",
 	"description": "ctx-core font",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -29,11 +29,11 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^6.0.8",
-		"@ctx-core/error": "^5.1.93",
+		"@ctx-core/dom": "^6.0.9",
+		"@ctx-core/error": "^5.1.94",
 		"@ctx-core/logger": "^3.1.21",
-		"@ctx-core/object": "^9.0.3",
-		"@ctx-core/store": "^16.0.5",
+		"@ctx-core/object": "^9.0.5",
+		"@ctx-core/store": "^16.0.6",
 		"svelte": "^3.24.0"
 	},
 	"devDependencies": {
