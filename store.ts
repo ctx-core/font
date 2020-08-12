@@ -1,15 +1,12 @@
 import { writable } from 'svelte/store'
 import { assign } from '@ctx-core/object'
-import { _has__dom, _no__dom } from '@ctx-core/dom'
-import { log } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/font/store.js'
+import { has__dom, no__dom } from '@ctx-core/dom'
 export const __px__rem = writable(null)
-if (_has__dom()) {
+if (has__dom) {
 	reload__px__rem()
 }
 export function reload__px__rem() {
-	log(`${logPrefix}|reload__px__rem`)
-	if (_no__dom()) return
+	if (no__dom) return
 	const div = document.createElement('div')
 	div.innerHTML = '&nbsp;'
 	assign(div.style, {

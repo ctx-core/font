@@ -31,7 +31,6 @@
 	"dependencies": {
 		"@ctx-core/dom": "^6.0.22",
 		"@ctx-core/error": "^5.1.102",
-		"@ctx-core/logger": "^3.1.23",
 		"@ctx-core/object": "^9.0.13",
 		"@ctx-core/store": "^16.0.16",
 		"svelte": "^3.24.1"

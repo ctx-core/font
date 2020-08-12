@@ -1,8 +1,6 @@
 import { assign, clone } from '@ctx-core/object'
-import { _no__dom } from '@ctx-core/dom'
+import { no__dom } from '@ctx-core/dom'
 import { throw__invalid_argument } from '@ctx-core/error'
-import { warn } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/font/dom.js'
 /**
  * The ctx for fit functions
  * @typedef {module:ctx-core/object/lib~ctx} ctx
@@ -16,7 +14,7 @@ const logPrefix = '@ctx-core/font/dom.js'
  * @param {...module:ctx-core/object/lib~ctx} ctx__clone
  */
 export function fit__downscale__fontSize(ctx) {
-	if (_no__dom()) return ctx
+	if (no__dom) return ctx
 	const ctx__clone = clone(...arguments)
 	const {
 		container,
@@ -54,7 +52,7 @@ export function fit__downscale__fontSize(ctx) {
 		while ((el.scrollWidth + padding) > container.offsetWidth) {
 			iteration++
 			if (iteration > max_iterations) {
-				warn(`${logPrefix}|fit__downscale__fontSize|iterations`)
+				console.warn(`fit__downscale__fontSize|iterations`)
 				break
 			}
 			const fontSize__ = fontSize - step__
