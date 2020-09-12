@@ -1,6 +1,6 @@
-import { writable } from 'svelte/store'
 import { assign } from '@ctx-core/object'
 import { has__dom, no__dom } from '@ctx-core/dom'
+import { writable } from '@ctx-core/store'
 export const __px__rem = writable(null)
 if (has__dom) {
 	reload__px__rem()
