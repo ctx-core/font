@@ -2,6 +2,20 @@
 	"name": "@ctx-core/font",
 	"version": "5.1.163",
 	"description": "ctx-core font",
+	"keywords": [
+		"ctx-core",
+		"font"
+	],
+	"homepage": "https://github.com/ctx-core/font#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/font/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/font/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
 	"main": "./index.js",
 	"module": "./index.js",
 	"types": "./index.ts",
@@ -9,35 +23,21 @@
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
-		"prepublishOnly": "npm run compile",
-		"exec": "$@"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/font/issues"
-	},
-	"keywords": [
-		"ctx-core",
-		"font"
-	],
-	"author": "Brian Takita",
-	"license": "Apache-2.0",
-	"bugs": {
-		"url": "https://github.com/ctx-core/font/issues"
-	},
-	"homepage": "https://github.com/ctx-core/font#readme",
-	"publishConfig": {
-		"access": "public"
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^6.0.34",
-		"@ctx-core/error": "^5.1.109",
-		"@ctx-core/object": "^10.0.4",
-		"@ctx-core/store": "^16.2.8",
+		"@ctx-core/dom": "workspace:*",
+		"@ctx-core/error": "workspace:*",
+		"@ctx-core/object": "workspace:*",
+		"@ctx-core/store": "workspace:*",
 		"svelte": "^3.25.0"
 	},
 	"devDependencies": {
 		"typescript": "^4.0.2"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"gitHead": "9fc6acc376c30042beb5a2e90f50372b9f03539e"
 }
