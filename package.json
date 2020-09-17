@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/font",
-  "version": "5.1.164",
+  "version": "5.1.165",
   "description": "ctx-core font",
   "keywords": [
     "ctx-core",
@@ -22,7 +22,7 @@
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "tsc -b",
+    "compile": "./node_modules/.bin/tsc -b",
     "exec": "$@",
     "prepublishOnly": "npm run compile"
   },

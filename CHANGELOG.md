@@ -1,6 +1,18 @@
 # @ctx-core/font
 
+## 5.1.165
+
+### Patch Changes
+
+- fix: npm run compile: path to tsc
+- Updated dependencies [undefined]
+  - @ctx-core/dom@6.0.37
+  - @ctx-core/error@6.0.1
+  - @ctx-core/object@11.0.1
+  - @ctx-core/store@16.2.11
+
 ## 5.1.164
+
 ### Patch Changes
 
 - typescript updates
