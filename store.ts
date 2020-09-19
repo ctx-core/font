@@ -13,11 +13,11 @@ export function reload__px__rem() {
 		display: 'block',
 		visibility: 'none',
 		fontSize: '1em',
-		margin: 0,
-		padding: 0,
+		margin: '0',
+		padding: '0',
 		height: 'auto',
-		lineHeight: 1,
-		border: 0
+		lineHeight: '1',
+		border: '0'
 	})
 	let px__rem
 	try {

@@ -1,5 +1,19 @@
 # @ctx-core/font
 
+## 6.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@7.0.0
+  - @ctx-core/error@7.0.0
+  - @ctx-core/object@12.0.0
+  - @ctx-core/store@17.0.0
+
 ## 5.1.165
 
 ### Patch Changes

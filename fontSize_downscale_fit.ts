@@ -1,32 +1,32 @@
 import { assign, clone } from '@ctx-core/object'
 import { no__dom } from '@ctx-core/dom'
-import { throw__invalid_argument } from '@ctx-core/error'
-/**
- * The ctx for fit functions
- * @typedef {module:ctx-core/object/lib~ctx} ctx
- * @property {module:ctx-core/dom/lib~HTMLElement} container - The container HTMLElement
- * @property {module:ctx-core/dom/lib~HTMLElement} el - The el HTMLElement
- * @property {float} [step=0.1] - delta for each `fontSize` step
- * @property {integer} [max_iterations=100] - maximum number of iterations. warning if exceeded
- */
+import { throw_invalid_argument, throw_invalid_argument_ctx_type } from '@ctx-core/error'
+export type clone_ctx_type = {
+	container:HTMLElement
+	el:HTMLElement
+	step:number
+	max_iterations:number
+	fontSize:number
+}
 /**
  * Fit `ctx.el` inside of ``
- * @param {...module:ctx-core/object/lib~ctx} ctx__clone
  */
-export function fit__downscale__fontSize(ctx) {
+export function fontSize_downscale_fit(ctx) {
 	if (no__dom) return ctx
-	const ctx__clone = clone(...arguments)
+	const clone_ctx = clone(...arguments) as clone_ctx_type
 	const {
 		container,
 		el,
 		step = 0.1,
 		max_iterations = 100
-	} = ctx__clone
+	} = clone_ctx
 	const step__ = Math.abs(step)
-	if (!container) throw__invalid_argument(ctx__clone, { key: 'container' })
-	if (!el) throw__invalid_argument(ctx__clone, { key: 'el' })
+	if (!container) throw_invalid_argument(
+		{ key: 'container' } as throw_invalid_argument_ctx_type
+	)
+	if (!el) throw_invalid_argument({ key: 'el' } as throw_invalid_argument_ctx_type)
 	let fontSize =
-		ctx__clone.fontSize
+		clone_ctx.fontSize
 		|| parseFloat(
 		getComputedStyle(el).getPropertyValue('font-size'))
 		/ ctx.px__rem
@@ -76,3 +76,4 @@ export function fit__downscale__fontSize(ctx) {
 		el.style.fontSize = `${fontSize}rem`
 	}
 }
+export const fit__downscale__fontSize = fontSize_downscale_fit
