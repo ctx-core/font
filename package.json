@@ -1,43 +1,42 @@
 {
-  "name": "@ctx-core/font",
-  "version": "6.0.1",
-  "description": "ctx-core font",
-  "keywords": [
-    "ctx-core",
-    "font"
-  ],
-  "homepage": "https://github.com/ctx-core/font#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/font/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/font/issues"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "main": "./index.js",
-  "module": "./index.js",
-  "types": "./index.ts",
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "./node_modules/.bin/tsc -b",
-    "exec": "$@",
-    "prepublishOnly": "npm run compile"
-  },
-  "dependencies": {
-    "@ctx-core/dom": "workspace:*",
-    "@ctx-core/error": "workspace:*",
-    "@ctx-core/object": "workspace:*",
-    "@ctx-core/store": "workspace:*",
-    "svelte": "~3.25.1"
-  },
-  "devDependencies": {
-    "typescript": "^4.0.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "9fc6acc376c30042beb5a2e90f50372b9f03539e"
+	"name": "@ctx-core/font",
+	"version": "6.0.1",
+	"description": "ctx-core font",
+	"keywords": [
+		"ctx-core",
+		"font"
+	],
+	"homepage": "https://github.com/ctx-core/font#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/font/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/font/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "./node_modules/.bin/tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
+	},
+	"dependencies": {
+		"@ctx-core/dom": "workspace:*",
+		"@ctx-core/error": "workspace:*",
+		"@ctx-core/object": "workspace:*",
+		"@ctx-core/store": "workspace:*",
+		"svelte": "~3.25.1"
+	},
+	"devDependencies": {
+		"typescript": "^4.0.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
