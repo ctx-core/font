@@ -1,5 +1,12 @@
 # @ctx-core/font
 
+## 6.0.16
+
+### Patch Changes
+
+- @ctx-core/store@17.2.2
+- @ctx-core/dom@7.0.16
+
 ## 6.0.15
 
 ### Patch Changes
