@@ -1,5 +1,15 @@
 # @ctx-core/font
 
+## 6.0.28
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@12.0.10
+  - @ctx-core/dom@7.0.28
+  - @ctx-core/error@7.0.10
+  - @ctx-core/store@18.1.7
+
 ## 6.0.27
 
 ### Patch Changes
