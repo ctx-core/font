@@ -1,5 +1,14 @@
 # @ctx-core/font
 
+## 6.0.46
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.0.3
+  - @ctx-core/dom@7.0.46
+
 ## 6.0.45
 
 ### Patch Changes
