@@ -1,7 +1,7 @@
 import { assign, clone } from '@ctx-core/object'
 import { no__dom } from '@ctx-core/dom'
 import { throw_invalid_argument, throw_invalid_argument_ctx_type } from '@ctx-core/error'
-export type clone_ctx_type = {
+export interface clone_ctx_type {
 	container:HTMLElement
 	el:HTMLElement
 	step:number
