@@ -1,5 +1,14 @@
 # @ctx-core/font
 
+## 6.1.24
+
+### Patch Changes
+
+- svelte: 3.31.0 -> 3.31.1
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.1.24
+  - @ctx-core/dom@7.1.35
+
 ## 6.1.23
 
 ### Patch Changes
