@@ -1,13 +1,7 @@
 import { assign, clone } from '@ctx-core/object'
 import { no__dom } from '@ctx-core/dom'
 import { throw_invalid_argument, throw_invalid_argument_ctx_type } from '@ctx-core/error'
-export interface clone_ctx_type {
-	container:HTMLElement
-	el:HTMLElement
-	step:number
-	max_iterations:number
-	fontSize:number
-}
+import type { clone_ctx_type } from './clone_ctx_type'
 /**
  * Fit `ctx.el` inside of ``
  */
@@ -76,4 +70,4 @@ export function fontSize_downscale_fit(ctx) {
 		el.style.fontSize = `${fontSize}rem`
 	}
 }
-export const fit__downscale__fontSize = fontSize_downscale_fit
+export { fontSize_downscale_fit as fit__downscale__fontSize }
