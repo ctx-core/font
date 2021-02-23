@@ -29,8 +29,8 @@
 	"dependencies": {
 		"@ctx-core/dom": "workspace:^8.1.16",
 		"@ctx-core/error": "workspace:^8.0.9",
-		"@ctx-core/object": "workspace:^17.0.9",
-		"@ctx-core/store": "workspace:^24.0.17",
+		"@ctx-core/object": "workspace:^17.0.10",
+		"@ctx-core/store": "workspace:^24.0.18",
 		"svelte": "3.32.3"
 	},
 	"devDependencies": {
