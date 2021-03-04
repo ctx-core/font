@@ -1,5 +1,15 @@
 # @ctx-core/font
 
+## 7.0.27
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@17.2.0
+  - @ctx-core/dom@8.2.5
+  - @ctx-core/error@8.0.12
+  - @ctx-core/store@24.1.6
+
 ## 7.0.26
 
 ### Patch Changes
