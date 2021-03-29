@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 7.0.36
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.2.14
+  - @ctx-core/error@8.0.20
+  - @ctx-core/object@17.4.2
+  - @ctx-core/store@24.1.15
+
 ## 7.0.35
 
 ### Patch Changes
