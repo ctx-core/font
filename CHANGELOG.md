@@ -1,5 +1,14 @@
 # @ctx-core/font
 
+## 7.0.38
+
+### Patch Changes
+
+- "svelte": 3.37.0
+- Updated dependencies [undefined]
+  - @ctx-core/store@24.1.17
+  - @ctx-core/dom@8.2.16
+
 ## 7.0.37
 
 ### Patch Changes
