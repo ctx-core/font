@@ -1,5 +1,14 @@
 # @ctx-core/font
 
+## 7.0.61
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.2.41
+  - @ctx-core/error@8.0.32
+
 ## 7.0.60
 
 ### Patch Changes
