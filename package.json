@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/font",
-	"version": "7.0.62",
+	"version": "7.0.63",
 	"description": "ctx-core font",
 	"keywords": [
 		"ctx-core",
@@ -27,11 +27,11 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^8.2.42",
+		"@ctx-core/dom": "workspace:^8.2.43",
 		"@ctx-core/error": "workspace:^8.0.33",
 		"@ctx-core/object": "workspace:^17.5.15",
-		"@ctx-core/store": "workspace:^24.5.9",
-		"svelte": "3.37.0"
+		"@ctx-core/store": "workspace:^24.7.1",
+		"svelte": "3.38.0"
 	},
 	"devDependencies": {
 		"typescript": "^4.2.4"
