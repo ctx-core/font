@@ -1,12 +1,12 @@
 import { assign, clone } from '@ctx-core/object'
-import { no__dom } from '@ctx-core/dom'
+import { no_dom } from '@ctx-core/dom'
 import { throw_invalid_argument, throw_invalid_argument_ctx_T } from '@ctx-core/error'
 import type { clone_ctx_type } from './clone_ctx_type'
 /**
  * Fit `ctx.el` inside of ``
  */
-export function fontSize_downscale_fit(ctx) {
-	if (no__dom) return ctx
+export function fontSize_downscale_fit(ctx:{ rem_px:number }) {
+	if (no_dom) return ctx
 	const clone_ctx = clone(...arguments) as clone_ctx_type
 	const {
 		container,
@@ -23,9 +23,9 @@ export function fontSize_downscale_fit(ctx) {
 		clone_ctx.fontSize
 		|| parseFloat(
 		getComputedStyle(el).getPropertyValue('font-size'))
-		/ ctx.px__rem
+		/ ctx.rem_px
 		|| 1.0
-	set__fontSize(fontSize)
+	set_fontSize(fontSize)
 	el.style.color = 'transparent'
 	let { width } = el.style
 	try {
@@ -51,7 +51,7 @@ export function fontSize_downscale_fit(ctx) {
 			}
 			const fontSize__ = fontSize - step__
 			if (!fontSize__ || fontSize__ <= step__) break
-			set__fontSize(fontSize__)
+			set_fontSize(fontSize__)
 		}
 	} finally {
 		el.style.color = ''
@@ -65,7 +65,7 @@ export function fontSize_downscale_fit(ctx) {
 		fontSize
 	})
 	return ctx
-	function set__fontSize(fontSize__rem = fontSize) {
+	function set_fontSize(fontSize__rem = fontSize) {
 		fontSize = fontSize__rem
 		el.style.fontSize = `${fontSize}rem`
 	}

@@ -1,13 +1,13 @@
 import { _b, assign } from '@ctx-core/object'
-import { writable } from '@ctx-core/store'
-import { no__dom } from '@ctx-core/dom'
-export const rem_px_b = _b('rem_px', ()=>{
-	const rem_px = writable(null)
+import { Writable$, writable$ } from '@ctx-core/store'
+import { no_dom } from '@ctx-core/dom'
+export const rem_px_b = _b('rem_px', (_ctx:{ rem_px?:rem_px_T })=>{
+	const rem_px = writable$<number|undefined>(undefined)
 	return assign(rem_px, {
 		reload_rem_px
-	})
+	}) as rem_px_T
 	function reload_rem_px() {
-		if (no__dom) return
+		if (no_dom) return
 		const div = document.createElement('div')
 		div.innerHTML = '&nbsp;'
 		assign(div.style, {
@@ -20,13 +20,16 @@ export const rem_px_b = _b('rem_px', ()=>{
 			lineHeight: '1',
 			border: '0'
 		})
-		let px__rem
+		let $rem_px:number
 		try {
 			document.body.appendChild(div)
-			px__rem = div.offsetHeight
+			$rem_px = div.offsetHeight
 		} finally {
 			div.remove()
 		}
-		rem_px.set(px__rem)
+		rem_px.$ = $rem_px
 	}
 })
+export interface rem_px_T extends Writable$<number|undefined> {
+	reload_rem_px():void
+}

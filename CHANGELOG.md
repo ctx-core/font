@@ -1,5 +1,19 @@
 # @ctx-core/font
 
+## 7.1.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.3.0
+  - @ctx-core/error@8.1.0
+  - @ctx-core/object@17.6.0
+  - @ctx-core/store@24.8.0
+
 ## 7.0.75
 
 ### Patch Changes
