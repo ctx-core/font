@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 7.1.2
+
+### Patch Changes
+
+- .npmignore: + ~
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.3.2
+  - @ctx-core/error@8.1.2
+  - @ctx-core/object@17.6.2
+  - @ctx-core/store@24.8.2
+
 ## 7.1.1
 
 ### Patch Changes
