@@ -1,7 +1,11 @@
 import { _b, assign } from '@ctx-core/object'
 import { Writable$, writable$ } from '@ctx-core/store'
 import { no_dom } from '@ctx-core/dom'
-export const rem_px_b = _b('rem_px', (_ctx:{ rem_px?:rem_px_T })=>{
+const key = 'rem_px'
+export interface rem_px_Ctx {
+	rem_px?:rem_px_T
+}
+export const rem_px_b = _b<rem_px_Ctx, typeof key>(key, ()=>{
 	const rem_px = writable$<number|undefined>(undefined)
 	return assign(rem_px, {
 		reload_rem_px
