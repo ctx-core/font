@@ -1,11 +1,9 @@
 import { _b, assign } from '@ctx-core/object'
 import { Writable$, writable$ } from '@ctx-core/store'
 import { no_dom } from '@ctx-core/dom'
+import type { font_Ctx } from './font_Ctx'
 const key = 'rem_px'
-export interface rem_px_Ctx {
-	rem_px?:rem_px_T
-}
-export const rem_px_b = _b<rem_px_Ctx, typeof key>(key, ()=>{
+export const rem_px_b = _b<font_Ctx, typeof key>(key, ()=>{
 	const rem_px = writable$<number|undefined>(undefined)
 	return assign(rem_px, {
 		reload_rem_px

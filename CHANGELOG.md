@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 7.2.0
+
+### Minor Changes
+
+- - font_Ctx
+
 ## 7.1.8
 
 ### Patch Changes
