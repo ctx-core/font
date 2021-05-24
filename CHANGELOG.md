@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 7.2.3
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.3.10
+  - @ctx-core/error@8.1.11
+  - @ctx-core/object@18.0.6
+  - @ctx-core/store@24.8.10
+
 ## 7.2.2
 
 ### Patch Changes
