@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 7.4.1
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.5.1
+  - @ctx-core/error@8.3.1
+  - @ctx-core/object@18.2.1
+  - @ctx-core/store@24.10.1
+
 ## 7.4.0
 
 ### Minor Changes
