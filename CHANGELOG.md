@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 7.4.3
+
+### Patch Changes
+
+- fix: \_h_b_h: return value
+
 ## 7.4.2
 
 ### Patch Changes
