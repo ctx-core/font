@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 7.4.2
+
+### Patch Changes
+
+- - font_b_h_b
+
 ## 7.4.1
 
 ### Patch Changes
