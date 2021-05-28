@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 7.4.4
+
+### Patch Changes
+
+- update dependencies
+
 ## 7.4.3
 
 ### Patch Changes
