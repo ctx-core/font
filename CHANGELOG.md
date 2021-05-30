@@ -1,5 +1,21 @@
 # @ctx-core/font
 
+## 8.0.0
+
+### Major Changes
+
+- \$ suffix for stores
+- \_ suffix for factory functions
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.0
+  - @ctx-core/error@9.0.0
+  - @ctx-core/object@19.0.0
+  - @ctx-core/store@25.0.0
+
 ## 7.4.4
 
 ### Patch Changes

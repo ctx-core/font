@@ -1,4 +1,4 @@
-export interface clone_ctx_type {
+export interface clone_ctx_T {
 	container:HTMLElement
 	el:HTMLElement
 	step:number

@@ -1,20 +1,20 @@
 import { assign, clone } from '@ctx-core/object'
 import { no_dom } from '@ctx-core/dom'
 import { throw_invalid_argument, throw_invalid_argument_ctx_T } from '@ctx-core/error'
-import type { clone_ctx_type } from './clone_ctx_type'
+import type { clone_ctx_T } from './clone_ctx_T'
 /**
  * Fit `ctx.el` inside of ``
  */
 export function fontSize_downscale_fit(ctx:{ rem_px:number }) {
 	if (no_dom) return ctx
-	const clone_ctx = clone(...arguments) as clone_ctx_type
+	const clone_ctx = clone(...arguments) as clone_ctx_T
 	const {
 		container,
 		el,
 		step = 0.1,
 		max_iterations = 100
 	} = clone_ctx
-	const step__ = Math.abs(step)
+	const out_step = Math.abs(step)
 	if (!container) throw_invalid_argument(
 		{ key: 'container' } as throw_invalid_argument_ctx_T
 	)
@@ -49,9 +49,9 @@ export function fontSize_downscale_fit(ctx:{ rem_px:number }) {
 				console.warn(`fit__downscale__fontSize|iterations`)
 				break
 			}
-			const fontSize__ = fontSize - step__
-			if (!fontSize__ || fontSize__ <= step__) break
-			set_fontSize(fontSize__)
+			const out_fontSize = fontSize - out_step
+			if (!out_fontSize || out_fontSize <= out_step) break
+			set_fontSize(out_fontSize)
 		}
 	} finally {
 		el.style.color = ''
