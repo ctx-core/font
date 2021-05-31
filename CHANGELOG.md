@@ -1,5 +1,13 @@
 # @ctx-core/font
 
+## 8.0.2
+
+### Patch Changes
+
+- _b->be_
+- Updated dependencies [undefined]
+  - @ctx-core/object@19.0.2
+
 ## 8.0.1
 
 ### Patch Changes

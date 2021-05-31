@@ -1,4 +1,4 @@
-import { _b } from '@ctx-core/object'
+import { be_ } from '@ctx-core/object'
 import type { B } from '@ctx-core/object'
 import type { rem_px_T } from './rem_px_b'
 import { rem_px_b } from './rem_px_b'
@@ -10,7 +10,7 @@ export interface font_b_h_T {
 	get rem_px():rem_px_T
 }
 export function font_b_h_b(ctx:font_ctx_I):B<font_ctx_I, 'font_b_h'> {
-	return _b('font_b_h', ()=>{
+	return be_('font_b_h', ()=>{
 		return {
 			get rem_px() { return rem_px_b(ctx) }
 		}
