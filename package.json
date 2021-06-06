@@ -28,10 +28,10 @@
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^9.0.7",
+		"@ctx-core/dom": "workspace:^9.0.8",
 		"@ctx-core/error": "workspace:^9.0.2",
-		"@ctx-core/object": "workspace:^19.1.0",
-		"@ctx-core/store": "workspace:^25.1.8",
+		"@ctx-core/object": "workspace:^19.1.1",
+		"@ctx-core/store": "workspace:^25.1.9",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
