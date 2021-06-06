@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 8.0.12
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.9
+  - @ctx-core/error@9.0.3
+  - @ctx-core/object@19.1.2
+  - @ctx-core/store@25.1.12
+
 ## 8.0.11
 
 ### Patch Changes
