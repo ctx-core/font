@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 8.0.13
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.10
+  - @ctx-core/error@9.0.4
+  - @ctx-core/object@19.1.3
+  - @ctx-core/store@25.1.13
+
 ## 8.0.12
 
 ### Patch Changes
