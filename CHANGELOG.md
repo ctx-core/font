@@ -1,5 +1,15 @@
 # @ctx-core/font
 
+## 8.0.14
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.11
+  - @ctx-core/error@9.0.5
+  - @ctx-core/store@25.1.15
+
 ## 8.0.13
 
 ### Patch Changes
