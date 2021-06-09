@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 8.0.17
+
+### Patch Changes
+
+- fix: B: inferred type issue
+
 ## 8.0.16
 
 ### Patch Changes
