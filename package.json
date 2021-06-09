@@ -35,7 +35,7 @@
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^5.1.4",
+		"@ctx-core/dev-tools": "workspace:^5.1.5",
 		"typescript": "^4.3.2"
 	},
 	"publishConfig": {
