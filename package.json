@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/font",
-	"version": "8.0.20",
+	"version": "9.0.0",
 	"description": "ctx-core font",
 	"keywords": [
 		"ctx-core",
@@ -16,9 +16,9 @@
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
-	"main": "./dist/index.js",
-	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
+	"main": "./src/index.js",
+	"module": "./src/index.js",
+	"types": "./src/index.d.ts",
 	"scripts": {
 		"build": "npm run clean && npm run generate_ctx_I_file && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.js && rm -f dist/**/*.d.ts && rm -f dist/**/*.map",
@@ -28,14 +28,14 @@
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^9.0.15",
-		"@ctx-core/error": "workspace:^9.0.7",
-		"@ctx-core/object": "workspace:^19.3.0",
-		"@ctx-core/store": "workspace:^25.1.21",
+		"@ctx-core/dom": "workspace:^10.0.0",
+		"@ctx-core/error": "workspace:^10.0.0",
+		"@ctx-core/object": "workspace:^20.0.0",
+		"@ctx-core/store": "workspace:^26.0.0",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^5.1.8",
+		"@ctx-core/dev-tools": "workspace:^6.0.0",
 		"typescript": "^4.3.2"
 	},
 	"publishConfig": {
