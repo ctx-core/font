@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 9.0.1
+
+### Patch Changes
+
+- update dependencies
+
 ## 9.0.0
 
 ### Major Changes
