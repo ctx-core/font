@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/font",
-	"version": "9.0.6",
+	"version": "9.0.7",
 	"description": "ctx-core font",
 	"keywords": [
 		"ctx-core",
@@ -28,14 +28,14 @@
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^10.0.6",
-		"@ctx-core/error": "workspace:^10.0.5",
-		"@ctx-core/object": "workspace:^20.0.6",
-		"@ctx-core/store": "workspace:^26.0.7",
+		"@ctx-core/dom": "workspace:^10.0.7",
+		"@ctx-core/error": "workspace:^10.0.6",
+		"@ctx-core/object": "workspace:^20.0.7",
+		"@ctx-core/store": "workspace:^26.0.8",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^6.0.6",
+		"@ctx-core/dev-tools": "workspace:^6.0.7",
 		"typescript": "^4.3.4"
 	},
 	"publishConfig": {

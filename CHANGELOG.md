@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 9.0.7
+
+### Patch Changes
+
+- fix: deploying \*.js files
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.7
+  - @ctx-core/error@10.0.6
+  - @ctx-core/object@20.0.7
+  - @ctx-core/store@26.0.8
+
 ## 9.0.6
 
 ### Patch Changes
