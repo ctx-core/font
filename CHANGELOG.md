@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 9.0.8
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.8
+  - @ctx-core/error@10.0.7
+  - @ctx-core/object@20.0.8
+  - @ctx-core/store@26.0.9
+
 ## 9.0.7
 
 ### Patch Changes
