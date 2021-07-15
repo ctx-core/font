@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 10.0.3
+
+### Patch Changes
+
+- import: + .js extention
+
 ## 10.0.2
 
 ### Patch Changes
