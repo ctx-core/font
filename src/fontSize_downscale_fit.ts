@@ -5,7 +5,14 @@ import type { clone_ctx_T } from './clone_ctx_T.js'
 /**
  * Fit `ctx.el` inside of ``
  */
-export function fontSize_downscale_fit(ctx:{ rem_px:number }) {
+export function fontSize_downscale_fit(ctx:{ rem_px:number }):{
+	rem_px:number
+	container?:HTMLElement
+	el?:HTMLElement
+	step?:number
+	max_iterations?:number
+	fontSize?:string
+} {
 	if (no_dom) return ctx
 	const clone_ctx = clone(...arguments) as clone_ctx_T
 	const {
@@ -22,7 +29,7 @@ export function fontSize_downscale_fit(ctx:{ rem_px:number }) {
 	let fontSize =
 		clone_ctx.fontSize
 		|| parseFloat(
-		getComputedStyle(el).getPropertyValue('font-size'))
+			getComputedStyle(el).getPropertyValue('font-size'))
 		/ ctx.rem_px
 		|| 1.0
 	set_fontSize(fontSize)
@@ -65,8 +72,8 @@ export function fontSize_downscale_fit(ctx:{ rem_px:number }) {
 		fontSize
 	})
 	return ctx
-	function set_fontSize(fontSize__rem = fontSize) {
-		fontSize = fontSize__rem
+	function set_fontSize(rem_fontSize = fontSize) {
+		fontSize = rem_fontSize
 		el.style.fontSize = `${fontSize}rem`
 	}
 }
