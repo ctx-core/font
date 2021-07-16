@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 10.0.5
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.4
+  - @ctx-core/error@11.0.4
+  - @ctx-core/object@21.0.3
+  - @ctx-core/store@27.0.3
+
 ## 10.0.4
 
 ### Patch Changes
