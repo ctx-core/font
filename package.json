@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/font",
-	"version": "10.0.9",
+	"version": "10.0.10",
 	"description": "ctx-core font",
 	"keywords": [
 		"ctx-core",
@@ -28,21 +28,21 @@
 		"build": "npm run clean && npm run copy-mjs && npm run generate_ctx_I_file && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
-		"copy-mjs": "cd dist && echo \"require = require('esm')(module)\nmodule.exports = require('./index.js')\" > index.cjs",
+		"copy-mjs": "cd dist && echo \"module.exports = (async () => import('./index.js'))()\" > index.cjs",
 		"exec": "$@",
 		"prepublishOnly": "npm run build",
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.9",
-		"@ctx-core/error": "workspace:^11.0.8",
-		"@ctx-core/object": "workspace:^21.0.7",
-		"@ctx-core/store": "workspace:^27.0.6",
+		"@ctx-core/dom": "workspace:^11.0.10",
+		"@ctx-core/error": "workspace:^11.0.9",
+		"@ctx-core/object": "workspace:^21.0.8",
+		"@ctx-core/store": "workspace:^27.0.7",
 		"esm": "^3.2.25",
 		"svelte": "3.38.3"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^7.0.9",
+		"@ctx-core/dev-tools": "workspace:^7.0.10",
 		"typescript": "^4.3.5"
 	},
 	"publishConfig": {
