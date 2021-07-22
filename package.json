@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/font",
-	"version": "10.0.16",
+	"version": "10.0.17",
 	"description": "ctx-core font",
 	"keywords": [
 		"ctx-core",
@@ -45,7 +45,7 @@
 		"svelte": "3.40.0"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^7.0.14",
+		"@ctx-core/dev-tools": "workspace:^7.0.15",
 		"typescript": "^4.3.5"
 	},
 	"publishConfig": {
