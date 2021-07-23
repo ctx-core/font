@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 10.0.20
+
+### Patch Changes
+
+- fix: \*\_ctx_I.generated
+
 ## 10.0.19
 
 ### Patch Changes
