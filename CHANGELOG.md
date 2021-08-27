@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 10.0.32
+
+### Patch Changes
+
+- typescript: ^4.3.5 -> ^4.4.2
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.21
+  - @ctx-core/error@11.0.15
+  - @ctx-core/object@21.0.17
+  - @ctx-core/store@27.0.24
+
 ## 10.0.31
 
 ### Patch Changes
