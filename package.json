@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/font",
-	"version": "10.0.35",
+	"version": "10.0.36",
 	"description": "ctx-core font",
 	"keywords": [
 		"ctx-core",
@@ -40,9 +40,9 @@
 		"@ctx-core/dom": "workspace:^11.0.23",
 		"@ctx-core/error": "workspace:^11.0.15",
 		"@ctx-core/object": "workspace:^21.0.17",
-		"@ctx-core/store": "workspace:^27.0.26",
+		"@ctx-core/store": "workspace:^27.0.27",
 		"esm": "^3.2.25",
-		"svelte": "3.42.4"
+		"svelte": "3.42.5"
 	},
 	"devDependencies": {
 		"@ctx-core/dev-tools": "workspace:^7.1.2",
