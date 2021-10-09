@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/font",
-	"version": "10.0.40",
+	"version": "10.0.41",
 	"description": "ctx-core font",
 	"keywords": [
 		"ctx-core",
@@ -37,7 +37,7 @@
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.26",
+		"@ctx-core/dom": "workspace:^11.0.27",
 		"@ctx-core/error": "workspace:^11.0.16",
 		"@ctx-core/object": "workspace:^21.0.20",
 		"@ctx-core/store": "workspace:^27.0.33",
