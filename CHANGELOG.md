@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 10.0.44
+
+### Patch Changes
+
+- update dependencies
+
 ## 10.0.43
 
 ### Patch Changes
