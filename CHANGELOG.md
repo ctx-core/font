@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 10.0.45
+
+### Patch Changes
+
+- compile using swc
+- Updated dependencies
+  - @ctx-core/dom@11.0.30
+  - @ctx-core/error@11.0.18
+  - @ctx-core/object@21.0.22
+  - @ctx-core/store@27.0.36
+
 ## 10.0.44
 
 ### Patch Changes
