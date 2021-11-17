@@ -1,7 +1,7 @@
+import { no_dom } from '@ctx-core/dom'
 import { B, be_, assign } from '@ctx-core/object'
 import { Writable$, writable$ } from '@ctx-core/store'
-import { no_dom } from '@ctx-core/dom'
-import type { font_Ctx } from './font_Ctx'
+import type { font_Ctx } from './font_Ctx.js'
 const key = 'rem_px'
 export const rem_px_b:B<font_Ctx, typeof key> = be_(key, ()=>{
 	const rem_px = writable$<number|undefined>(undefined)

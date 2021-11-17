@@ -1,6 +1,6 @@
-import { assign, clone } from '@ctx-core/object'
 import { no_dom } from '@ctx-core/dom'
 import { throw_invalid_argument, throw_invalid_argument_ctx_T } from '@ctx-core/error'
+import { assign, clone } from '@ctx-core/object'
 import type { clone_ctx_T } from './clone_ctx_T.js'
 /**
  * Fit `ctx.el` inside of ``
