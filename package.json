@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/font",
-	"version": "10.0.52",
+	"version": "10.0.53",
 	"description": "ctx-core font",
 	"keywords": [
 		"ctx-core",
@@ -36,10 +36,10 @@
 		"generate_ctx_I_file": "swc $(./node_modules/.bin/generate_ctx_I_file | tail -n1) --out-dir dist --source-maps --config-file .swcrc"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.37",
-		"@ctx-core/error": "workspace:^11.1.6",
-		"@ctx-core/object": "workspace:^21.0.29",
-		"@ctx-core/store": "workspace:^27.0.43",
+		"@ctx-core/dom": "workspace:^11.0.38",
+		"@ctx-core/error": "workspace:^11.1.7",
+		"@ctx-core/object": "workspace:^21.0.30",
+		"@ctx-core/store": "workspace:^27.0.44",
 		"svelte": "3.44.2"
 	},
 	"devDependencies": {

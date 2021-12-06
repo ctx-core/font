@@ -1,5 +1,15 @@
 # @ctx-core/font
 
+## 10.0.53
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies
+  - @ctx-core/dom@11.0.38
+  - @ctx-core/error@11.1.7
+  - @ctx-core/store@27.0.44
+
 ## 10.0.52
 
 ### Patch Changes
