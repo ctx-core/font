@@ -1,5 +1,15 @@
 # @ctx-core/font
 
+## 10.0.54
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/dom@11.0.39
+  - @ctx-core/error@11.1.8
+  - @ctx-core/store@27.0.45
+
 ## 10.0.53
 
 ### Patch Changes
