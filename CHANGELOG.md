@@ -1,5 +1,22 @@
 # @ctx-core/font
 
+## 11.0.0
+
+### Major Changes
+
+- \*\_b: ctx is a map: @ctx-core/object: 22.0.0
+- rem_px_b->rem_px\$\_b
+
+### Patch Changes
+
+- package.json: - module
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@22.0.0
+  - @ctx-core/dom@11.0.40
+  - @ctx-core/error@11.1.9
+  - @ctx-core/store@27.0.46
+
 ## 10.0.54
 
 ### Patch Changes

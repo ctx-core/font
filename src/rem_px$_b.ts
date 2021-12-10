@@ -1,13 +1,12 @@
 import { no_dom } from '@ctx-core/dom'
 import { B, be_, assign } from '@ctx-core/object'
 import { Writable$, writable$ } from '@ctx-core/store'
-import type { font_Ctx } from './font_Ctx.js'
-const key = 'rem_px'
-export const rem_px_b:B<font_Ctx, typeof key> = be_(key, ()=>{
-	const rem_px = writable$<number|undefined>(undefined)
-	return assign(rem_px, {
+const key = 'rem_px$'
+export const rem_px$_b:B<rem_px$_T> = be_(key, ()=>{
+	const rem_px$ = writable$<number|undefined>(undefined)
+	return assign(rem_px$, {
 		reload_rem_px
-	}) as rem_px_T
+	}) as rem_px$_T
 	function reload_rem_px() {
 		if (no_dom) return
 		const div = document.createElement('div')
@@ -29,9 +28,9 @@ export const rem_px_b:B<font_Ctx, typeof key> = be_(key, ()=>{
 		} finally {
 			div.remove()
 		}
-		rem_px.$ = $rem_px
+		rem_px$.$ = $rem_px
 	}
 })
-export interface rem_px_T extends Writable$<number|undefined> {
+export interface rem_px$_T extends Writable$<number|undefined> {
 	reload_rem_px():void
 }
