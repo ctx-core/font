@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 11.0.8
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/dom@11.0.47
+  - @ctx-core/error@11.1.16
+  - @ctx-core/object@22.0.7
+  - @ctx-core/store@27.0.54
+
 ## 11.0.7
 
 ### Patch Changes
