@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 11.0.7
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/dom@11.0.46
+  - @ctx-core/error@11.1.15
+  - @ctx-core/object@22.0.6
+  - @ctx-core/store@27.0.53
+
 ## 11.0.6
 
 ### Patch Changes
