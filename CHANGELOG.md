@@ -1,5 +1,15 @@
 # @ctx-core/font
 
+## 12.0.6
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/dom@11.1.2
+  - @ctx-core/error@11.1.18
+  - @ctx-core/nanostores@0.3.1
+
 ## 12.0.5
 
 ### Patch Changes
