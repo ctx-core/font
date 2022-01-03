@@ -36,7 +36,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/dom": "workspace:^11.1.2",
-		"@ctx-core/error": "workspace:^11.1.19",
+		"@ctx-core/error": "workspace:^11.1.20",
 		"@ctx-core/nanostores": "workspace:^0.3.1",
 		"@ctx-core/object": "workspace:^22.0.8"
 	},
