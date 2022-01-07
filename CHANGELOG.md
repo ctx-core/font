@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 12.0.8
+
+### Patch Changes
+
+- @swc/core: ^1.2.125 -> ^1.2.127
+- Updated dependencies
+  - @ctx-core/dom@11.1.4
+  - @ctx-core/error@11.1.22
+  - @ctx-core/nanostores@0.3.3
+  - @ctx-core/object@22.0.11
+
 ## 12.0.7
 
 ### Patch Changes
