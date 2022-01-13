@@ -1,5 +1,19 @@
 # @ctx-core/font
 
+## 12.0.14
+
+### Patch Changes
+
+- update dependencies
+
+## 12.0.13
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@0.4.0
+
 ## 12.0.12
 
 ### Patch Changes
