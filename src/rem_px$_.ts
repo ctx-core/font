@@ -1,8 +1,7 @@
 import { no_dom } from '@ctx-core/dom'
 import { atom$, WritableAtom$ } from '@ctx-core/nanostores'
-import { B, be_, assign } from '@ctx-core/object'
-const key = 'rem_px$'
-export const rem_px$_:B<rem_px$_T> = be_(key, ()=>{
+import { assign, B, be_ } from '@ctx-core/object'
+export const rem_px$_:B<rem_px$_T> = be_('rem_px$', ()=>{
 	const rem_px$ = atom$<number|undefined>(undefined)
 	return assign(rem_px$, {
 		reload_rem_px
