@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 13.0.2
+
+### Patch Changes
+
+- update dependencies
+
 ## 13.0.1
 
 ### Patch Changes
