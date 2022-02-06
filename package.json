@@ -35,10 +35,10 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.1.5",
-		"@ctx-core/error": "workspace:^11.3.0",
-		"@ctx-core/nanostores": "workspace:^0.5.3",
-		"@ctx-core/object": "workspace:^22.0.13"
+		"@ctx-core/dom": "^11.1.5",
+		"@ctx-core/error": "^11.3.0",
+		"@ctx-core/nanostores": "^0.5.3",
+		"@ctx-core/object": "^22.0.13"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
