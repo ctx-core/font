@@ -35,9 +35,9 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^11.1.7",
+		"@ctx-core/dom": "^11.1.8",
 		"@ctx-core/error": "^11.4.0",
-		"@ctx-core/nanostores": "^0.7.4",
+		"@ctx-core/nanostores": "^0.7.5",
 		"@ctx-core/object": "*"
 	},
 	"devDependencies": {
