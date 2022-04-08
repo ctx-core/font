@@ -37,12 +37,12 @@
 	"dependencies": {
 		"@ctx-core/dom": "^11.1.9",
 		"@ctx-core/error": "^11.4.1",
-		"@ctx-core/nanostores": "^1.0.8",
+		"@ctx-core/nanostores": "^1.0.9",
 		"@ctx-core/object": "^22.1.3"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.163",
+		"@swc/core": "^1.2.164",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
