@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 13.0.14
+
+### Patch Changes
+
+- package.json: exports: update
+- Updated dependencies
+  - @ctx-core/dom@11.1.10
+  - @ctx-core/error@11.4.2
+  - @ctx-core/nanostores@1.0.11
+  - @ctx-core/object@22.1.4
+
 ## 13.0.13
 
 ### Patch Changes
