@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 13.0.17
+
+### Patch Changes
+
+- @ctx-core/function: 20.7.1
+- Updated dependencies
+  - @ctx-core/dom@11.1.14
+  - @ctx-core/error@11.4.5
+  - @ctx-core/nanostores@1.0.16
+  - @ctx-core/object@22.1.8
+
 ## 13.0.16
 
 ### Patch Changes
