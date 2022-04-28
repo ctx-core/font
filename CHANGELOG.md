@@ -1,5 +1,14 @@
 # @ctx-core/font
 
+## 13.0.18
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies
+  - @ctx-core/dom@11.1.15
+  - @ctx-core/error@11.4.6
+
 ## 13.0.17
 
 ### Patch Changes
