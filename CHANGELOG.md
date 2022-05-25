@@ -1,5 +1,14 @@
 # @ctx-core/font
 
+## 13.0.22
+
+### Patch Changes
+
+- @ctx-core/object: 22.2.0
+- Updated dependencies
+  - @ctx-core/dom@11.1.21
+  - @ctx-core/error@11.4.8
+
 ## 13.0.21
 
 ### Patch Changes
