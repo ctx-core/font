@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 13.0.23
+
+### Patch Changes
+
+- ∋ @ctx-core/nanostores: 1.1.0
+
 ## 13.0.22
 
 ### Patch Changes
