@@ -1,8 +1,8 @@
 import { no_dom } from '@ctx-core/dom'
-import { atom$, WritableAtom$ } from '@ctx-core/nanostores'
+import { atom_, WritableAtom_ } from '@ctx-core/nanostores'
 import { assign, B, be_ } from '@ctx-core/object'
 export const rem_px$_:B<rem_px$_T> = be_('rem_px$', ()=>{
-	const rem_px$ = atom$<number|undefined>(undefined)
+	const rem_px$ = atom_<number|undefined>(undefined)
 	return assign(rem_px$, {
 		reload_rem_px
 	}) as rem_px$_T
@@ -30,6 +30,6 @@ export const rem_px$_:B<rem_px$_T> = be_('rem_px$', ()=>{
 		rem_px$.$ = $rem_px
 	}
 })
-export interface rem_px$_T extends WritableAtom$<number|undefined> {
+export interface rem_px$_T extends WritableAtom_<number|undefined> {
 	reload_rem_px():void
 }
