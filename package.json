@@ -36,11 +36,11 @@
 		"@ctx-core/dom": "^11.1.21",
 		"@ctx-core/error": "^11.4.8",
 		"@ctx-core/nanostores": "^1.4.0",
-		"@ctx-core/object": "^22.2.0"
+		"@ctx-core/object": "^22.2.1"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.194",
+		"@swc/core": "^1.2.196",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
