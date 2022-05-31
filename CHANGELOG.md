@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 13.1.0
+
+### Minor Changes
+
+- \__ suffix aliased by \$_
+
 ## 13.0.27
 
 ### Patch Changes

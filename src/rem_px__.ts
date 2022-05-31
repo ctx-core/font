@@ -1,11 +1,11 @@
 import { no_dom } from '@ctx-core/dom'
 import { atom_, WritableAtom_ } from '@ctx-core/nanostores'
-import { assign, B, be_ } from '@ctx-core/object'
-export const rem_px$_:B<rem_px$_T> = be_('rem_px$', ()=>{
-	const rem_px$ = atom_<number|undefined>(undefined)
-	return assign(rem_px$, {
+import { assign, be_ } from '@ctx-core/object'
+export const rem_px__ = be_<rem_px__T>('rem_px__', ()=>{
+	const rem_px_ = atom_<number|undefined>(undefined)
+	return assign(rem_px_, {
 		reload_rem_px
-	}) as rem_px$_T
+	}) as rem_px__T
 	function reload_rem_px() {
 		if (no_dom) return
 		const div = document.createElement('div')
@@ -27,9 +27,9 @@ export const rem_px$_:B<rem_px$_T> = be_('rem_px$', ()=>{
 		} finally {
 			div.remove()
 		}
-		rem_px$.$ = $rem_px
+		rem_px_.$ = $rem_px
 	}
 })
-export interface rem_px$_T extends WritableAtom_<number|undefined> {
+export interface rem_px__T extends WritableAtom_<number|undefined> {
 	reload_rem_px():void
 }
