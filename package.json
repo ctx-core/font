@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/font",
-	"version": "13.1.1",
+	"version": "13.1.2",
 	"description": "ctx-core font",
 	"keywords": [
 		"ctx-core",
@@ -35,12 +35,12 @@
 	"dependencies": {
 		"@ctx-core/dom": "^11.1.21",
 		"@ctx-core/error": "^11.5.0",
-		"@ctx-core/nanostores": "^1.4.1",
+		"@ctx-core/nanostores": "^1.4.2",
 		"@ctx-core/object": "^22.2.1"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.211",
+		"@swc/core": "^1.2.212",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
