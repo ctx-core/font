@@ -36,7 +36,7 @@
 		"@ctx-core/dom": "^11.1.28",
 		"@ctx-core/error": "^11.5.1",
 		"@ctx-core/nanostores": "^2.2.1",
-		"@ctx-core/object": "^22.2.8"
+		"@ctx-core/object": "^22.3.0"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
