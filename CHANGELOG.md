@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 13.1.24
+
+### Patch Changes
+
+- @ctx-core/dom: ^11.2.16 -> ^11.2.17
+
 ## 13.1.23
 
 ### Patch Changes
