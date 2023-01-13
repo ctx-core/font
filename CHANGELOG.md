@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 13.1.27
+
+### Patch Changes
+
+- rimraf: ^3.0.2 -> ^4.0.1
+
 ## 13.1.26
 
 ### Patch Changes
