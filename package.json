@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/font",
-	"version": "13.1.36",
+	"version": "13.1.37",
 	"description": "ctx-core font",
 	"keywords": [
 		"ctx-core",
@@ -33,7 +33,7 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^11.2.26",
+		"@ctx-core/dom": "^11.2.27",
 		"@ctx-core/error": "^11.5.16",
 		"@ctx-core/nanostores": "^2.2.18",
 		"@ctx-core/object": "^24.1.2"
