@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 13.1.38
+
+### Patch Changes
+
+- @swc/core: ^1.3.31 -> ^1.3.32
+
 ## 13.1.37
 
 ### Patch Changes
