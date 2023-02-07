@@ -1,5 +1,5 @@
 import { no_dom } from '@ctx-core/dom'
-import { throw_invalid_argument, throw_invalid_argument_ctx_T } from '@ctx-core/error'
+import { invalid_argument__throw, throw_invalid_argument_ctx_T } from '@ctx-core/error'
 import { assign, clone } from '@ctx-core/object'
 import type { clone_ctx_T } from './clone_ctx_T.js'
 /**
@@ -22,10 +22,10 @@ export function fontSize_downscale_fit(ctx:{ rem_px:number }):{
 		max_iterations = 100
 	} = clone_ctx
 	const out_step = Math.abs(step)
-	if (!container) throw_invalid_argument(
+	if (!container) invalid_argument__throw(
 		{ key: 'container' } as throw_invalid_argument_ctx_T
 	)
-	if (!el) throw_invalid_argument({ key: 'el' } as throw_invalid_argument_ctx_T)
+	if (!el) invalid_argument__throw({ key: 'el' } as throw_invalid_argument_ctx_T)
 	let fontSize =
 		clone_ctx.fontSize
 		|| parseFloat(
