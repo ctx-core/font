@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 13.1.47
+
+### Patch Changes
+
+- @ctx-core/error: ^11.5.18 -> ^11.6.0
+
 ## 13.1.46
 
 ### Patch Changes
