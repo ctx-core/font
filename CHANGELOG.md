@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 14.0.0
+
+### Major Changes
+
+- - rem_px**reload: instead of rem_px** member functions
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+- fontSize\_\_fit_downscale: aliased by fontSize_downscale_fit
+
 ## 13.1.52
 
 ### Patch Changes
