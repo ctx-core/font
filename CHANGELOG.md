@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 14.0.107
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/dom@14.1.31
+  - @ctx-core/error@12.3.26
+  - @ctx-core/nanostores@3.2.22
+  - @ctx-core/object@27.4.23
+
 ## 14.0.106
 
 ### Patch Changes
