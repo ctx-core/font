@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/font",
-	"version": "14.0.130",
+	"version": "14.0.131",
 	"description": "ctx-core font",
 	"keywords": [
 		"ctx-core",
@@ -33,7 +33,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^14.1.41",
+		"@ctx-core/dom": "^14.1.42",
 		"@ctx-core/error": "^12.3.31",
 		"@ctx-core/nanostores": "^4.2.1",
 		"@ctx-core/object": "^27.6.0"
