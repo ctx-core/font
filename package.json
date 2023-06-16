@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/font",
-	"version": "14.0.144",
+	"version": "14.0.145",
 	"description": "ctx-core font",
 	"keywords": [
 		"ctx-core",
@@ -35,7 +35,7 @@
 	"dependencies": {
 		"@ctx-core/dom": "^14.1.52",
 		"@ctx-core/error": "^12.3.36",
-		"@ctx-core/nanostores": "^5.0.1",
+		"@ctx-core/nanostores": "^5.0.2",
 		"@ctx-core/object": "^28.0.1"
 	},
 	"devDependencies": {
