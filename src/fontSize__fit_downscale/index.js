@@ -1,6 +1,5 @@
 import { no_dom } from '@ctx-core/dom'
 import { invalid_argument__throw } from '@ctx-core/error'
-import { clone } from '@ctx-core/object'
 /** @typedef {import('./index.d.ts').fontSize__fit_downscale__o_T}fontSize__fit_downscale__o_T */
 /**
  * Fit `ctx.el` inside of ``
@@ -53,11 +52,12 @@ export function fontSize__fit_downscale(o) {
 		el.style.color = ''
 		el.style.width = width
 	}
-	return clone(o, {
+	return {
+		...o,
 		step,
 		max_iterations,
 		fontSize
-	})
+	}
 	function set_fontSize(rem_fontSize = fontSize) {
 		fontSize = rem_fontSize
 		el.style.fontSize = `${fontSize}rem`

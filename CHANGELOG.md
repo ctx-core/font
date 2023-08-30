@@ -1,5 +1,18 @@
 # @ctx-core/font
 
+## 14.1.0
+
+### Minor Changes
+
+- - rem*px*,rem_px\_\_set
+
+  rem*px$*: aliased by rem_px\_\_
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/object@28.0.5
+
 ## 14.0.165
 
 ### Patch Changes
