@@ -1,5 +1,5 @@
 /**
- * Fit `params.el` inside of ``
+ * Fit `params.el` inside an element
  */
 export declare function fontSize__fit_downscale(
 	params:fontSize__fit_downscale__o_T

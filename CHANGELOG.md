@@ -1,5 +1,28 @@
 # @ctx-core/font
 
+## 14.2.0
+
+### Minor Changes
+
+- fix:types package.json exports
+- tsconfig:
+
+      "module": "ESNext"
+      "moduleResolution": "nodenext"
+      "target": "ESNext"
+
+### Patch Changes
+
+- package.json: - "svelte": "./src/index.js"
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/dom@15.1.0
+  - @ctx-core/error@12.4.0
+  - @ctx-core/nanostores@7.1.0
+  - @ctx-core/object@30.1.0
+
 ## 14.1.34
 
 ### Patch Changes
