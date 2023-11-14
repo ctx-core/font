@@ -1,5 +1,16 @@
 # @ctx-core/font
 
+## 14.2.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/dom@15.1.2
+  - @ctx-core/error@12.4.2
+  - @ctx-core/nanostores@7.1.3
+  - @ctx-core/object@30.1.2
+
 ## 14.2.1
 
 ### Patch Changes
