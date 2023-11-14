@@ -1,5 +1,18 @@
 # @ctx-core/font
 
+## 14.2.1
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^7.1.0 -> ^7.1.1
+- tsx: ^4.0.0 -> ^4.1.2
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/error@12.4.1
+  - @ctx-core/object@30.1.1
+  - @ctx-core/dom@15.1.1
+  - @ctx-core/nanostores@7.1.2
+
 ## 14.2.0
 
 ### Minor Changes
