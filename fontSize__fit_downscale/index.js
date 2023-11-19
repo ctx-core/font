@@ -1,6 +1,6 @@
 import { no_dom } from '@ctx-core/dom'
 import { invalid_argument__throw } from '@ctx-core/error'
-/** @typedef {import('./index.d.ts').fontSize__fit_downscale__o_T}fontSize__fit_downscale__o_T */
+/** @typedef {import('./index.d.ts').fontSize__fit_downscale__o_T} */
 /**
  * Fit `ctx.el` inside an element
  * @param {fontSize__fit_downscale__o_T}o

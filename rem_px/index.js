@@ -1,13 +1,15 @@
 import { no_dom } from '@ctx-core/dom'
-import { atom_, be_atom_triple_ } from '@ctx-core/nanostores'
+import { be_atom_triple_ } from '@ctx-core/nanostores'
 import { assign } from '@ctx-core/object'
-/** @typedef {import('@ctx-core/object').Ctx}Ctx */
+/** @typedef {import('@ctx-core/object').be_atom_triple_T} */
+/** @typedef {import('@ctx-core/object').Ctx} */
 export const [
 	rem_px$_,
 	rem_px_,
 	rem_px__set,
-] = be_atom_triple_('rem_px', ()=>
-	atom_(undefined))
+] = /** @type {be_atom_triple_T<number|undefined>} */ be_atom_triple_(()=>
+	undefined)
+	.config({ id: 'rem_px' })
 export {
 	rem_px$_ as rem_px__,
 }
