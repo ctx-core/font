@@ -8,8 +8,8 @@ export const [
 	rem_px_,
 	rem_px__set,
 ] = /** @type {be_atom_triple_T<number|undefined>} */ be_atom_triple_(()=>
-	undefined)
-	.config({ id: 'rem_px' })
+	undefined,
+{ id: 'rem_px' })
 export {
 	rem_px$_ as rem_px__,
 }
