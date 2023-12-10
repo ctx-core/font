@@ -1,5 +1,14 @@
 # @ctx-core/font
 
+## 14.2.44
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^9.0.25 -> ^9.0.26
+- @ctx-core/dom: ^15.1.40 -> ^15.1.41
+- @ctx-core/error: ^12.4.38 -> ^12.4.39
+- @ctx-core/object: ^31.1.20 -> ^31.1.21
+
 ## 14.2.43
 
 ### Patch Changes
