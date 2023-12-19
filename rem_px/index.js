@@ -1,8 +1,7 @@
+/// <reference types="ctx-core" />
 import { no_dom } from '@ctx-core/dom'
 import { be_atom_triple_ } from '@ctx-core/nanostores'
-import { assign } from '@ctx-core/object'
-/** @typedef {import('@ctx-core/object').be_atom_triple_T} */
-/** @typedef {import('@ctx-core/object').Ctx} */
+import { assign } from 'ctx-core/object'
 export const [
 	rem_px$_,
 	rem_px_,
