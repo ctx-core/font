@@ -1,5 +1,14 @@
 # @ctx-core/font
 
+## 14.2.60
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/nanostores@10.0.0
+  - @ctx-core/error@12.4.52
+  - @ctx-core/object@31.1.34
+
 ## 14.2.59
 
 ### Patch Changes
