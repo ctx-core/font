@@ -1,14 +1,15 @@
 /// <reference types="ctx-core" />
 import { no_dom } from '@ctx-core/dom'
-import { be_atom_triple_ } from '@ctx-core/nanostores'
 import { assign } from 'ctx-core/object'
+import { be_sig_triple_ } from 'ctx-core/rmemo'
 export const [
 	rem_px$_,
 	rem_px_,
 	rem_px__set,
-] = /** @type {be_atom_triple_T<number|undefined>} */ be_atom_triple_(()=>
-	undefined,
-{ id: 'rem_px' })
+] = /** @type {be_sig_triple_T<number|undefined>} */
+	be_sig_triple_(()=>
+		undefined,
+	{ id: 'rem_px' })
 export {
 	rem_px$_ as rem_px__,
 }
