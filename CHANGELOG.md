@@ -1,5 +1,13 @@
 # @ctx-core/font
 
+## 14.2.117
+
+### Patch Changes
+
+- ctx-core: ^5.26.0 -> ^5.27.0
+- Updated dependencies
+  - @ctx-core/dom@15.3.1
+
 ## 14.2.116
 
 ### Patch Changes
