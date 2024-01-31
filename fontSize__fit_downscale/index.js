@@ -1,4 +1,4 @@
-import { no_dom } from '@ctx-core/dom'
+import { is_server_ } from 'ctx-core/env'
 import { invalid_argument__throw } from 'ctx-core/error'
 /** @typedef {import('./index.d.ts').fontSize__fit_downscale__o_T} */
 /**
@@ -7,7 +7,7 @@ import { invalid_argument__throw } from 'ctx-core/error'
  * @returns {fontSize__fit_downscale__o_T}
  */
 export function fontSize__fit_downscale(o) {
-	if (no_dom) return o
+	if (is_server_()) return o
 	const {
 		container,
 		el,

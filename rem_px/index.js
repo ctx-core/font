@@ -1,5 +1,5 @@
 /// <reference types="ctx-core" />
-import { no_dom } from '@ctx-core/dom'
+import { is_server_ } from 'ctx-core/env'
 import { assign } from 'ctx-core/object'
 import { be_sig_triple_ } from 'ctx-core/rmemo'
 export const [
@@ -17,7 +17,7 @@ export {
  * @param {Ctx}ctx
  */
 export function rem_px__reload(ctx) {
-	if (no_dom) return
+	if (is_server_()) return
 	const div = document.createElement('div')
 	div.innerHTML = '&nbsp;'
 	assign(div.style, {

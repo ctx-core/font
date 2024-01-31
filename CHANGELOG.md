@@ -1,5 +1,14 @@
 # @ctx-core/font
 
+## 14.2.136
+
+### Patch Changes
+
+- patch:
+
+      - ∋ @ctx-core/dom
+      optimize imports
+
 ## 14.2.135
 
 ### Patch Changes
