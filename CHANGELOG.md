@@ -1,5 +1,12 @@
 # @ctx-core/font
 
+## 14.2.144
+
+### Patch Changes
+
+- Updated dependencies
+  - ctx-core@6.0.0
+
 ## 14.2.143
 
 ### Patch Changes

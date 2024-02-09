@@ -14,7 +14,7 @@ export {
 	rem_px$_ as rem_px__,
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  */
 export function rem_px__reload(ctx) {
 	if (is_server_()) return
