@@ -1,5 +1,11 @@
 # @ctx-core/font
 
+## 14.2.165
+
+### Patch Changes
+
+- ctx-core: ^6.5.6 -> ^6.5.7
+
 ## 14.2.164
 
 ### Patch Changes
