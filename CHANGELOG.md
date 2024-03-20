@@ -1,5 +1,13 @@
 # @ctx-core/font
 
+## 14.2.170
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 14.2.169
 
 ### Patch Changes
