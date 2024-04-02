@@ -1,15 +1,15 @@
 /// <reference types="ctx-core" />
 import { is_server_ } from 'ctx-core/env'
 import { assign } from 'ctx-core/object'
-import { be_sig_triple_ } from 'ctx-core/rmemo'
+import { id_be_sig_triple_ } from 'ctx-core/rmemo'
 export const [
 	rem_px$_,
 	rem_px_,
 	rem_px__set,
 ] = /** @type {be_sig_triple_T<number|undefined>} */
-	be_sig_triple_(()=>
-		undefined,
-	{ id: 'rem_px' })
+	id_be_sig_triple_(
+		'rem_px',
+		()=>undefined)
 export {
 	rem_px$_ as rem_px__,
 }
